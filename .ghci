@@ -1,0 +1,7 @@
+:set -ilib
+:set prompt "> "
+
+:def! reload (const $ return "::reload\nLanguage.Javascript.JSaddle.Warp.debug 8000 mainW")
+
+-- e.g.
+-- :load app-wai/Main.hs
